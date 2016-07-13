@@ -1,0 +1,6 @@
+require(knitr)
+require(markdown)
+#setwd("~/GitHub repositories/GettingAndCleaningData/Project")
+setwd("~/Repositories/Coursera/GettingAndCleaningData/Project")
+knit("run_Analysis.R",encoding=	ISO8859-1")
+markdownToHTML("run_Analysis.R", "run_Analysis.html")
